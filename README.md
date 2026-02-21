@@ -1,14 +1,13 @@
-# fippy
+# Fippy
 
-This project is based on Huffman Coding, a lossless, bottom-up compression algorithm.
-It can compress and decompress any text files.
+A file compression system based on the Huffman Coding algorithm, a greedy, lossless compression technique that builds an optimal prefix tree to encode characters efficiently based on their frequency.
 
+The project provides two main functionalities:
 
-Implementation in Project
-This project supports two functions:
-1) Encode: Compresses input file passed.
-2) Decode: Decompresses Huffman coded file passed back to its original file.
+-- Encode: Compresses a given text file into a Huffman-encoded format.
+-- Decode: Reconstructs the original file from the compressed Huffman-coded file.
 
+This implementation demonstrates practical applications of data structures such as priority queues (min-heaps), binary trees, and hash maps, along with algorithmic optimization techniques.
 
 To run this project you need to create an executable file. 
 You can follow the steps given below:
