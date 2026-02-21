@@ -5,6 +5,7 @@ A file compression system based on the Huffman Coding algorithm, a greedy, lossl
 The project provides two main functionalities:
 
 -- Encode: Compresses a given text file into a Huffman-encoded format.
+
 -- Decode: Reconstructs the original file from the compressed Huffman-coded file.
 
 This implementation demonstrates practical applications of data structures such as priority queues (min-heaps), binary trees, and hash maps, along with algorithmic optimization techniques.
